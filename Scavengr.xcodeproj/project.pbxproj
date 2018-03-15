@@ -14,6 +14,7 @@
 		34D4453B205A315B001A5E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D44539205A315B001A5E08 /* LaunchScreen.storyboard */; };
 		34D44543205A3A0D001A5E08 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D44542205A3A0D001A5E08 /* MessageCell.swift */; };
 		34D44545205A43A8001A5E08 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D44544205A43A8001A5E08 /* ChatViewController.swift */; };
+		34F359AE205AC1D200D7F429 /* ScavengerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F359AD205AC1D200D7F429 /* ScavengerEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		34D4453C205A315B001A5E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D44542205A3A0D001A5E08 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		34D44544205A43A8001A5E08 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		34F359AD205AC1D200D7F429 /* ScavengerEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerEngine.swift; sourceTree = "<group>"; };
 		3BAF0D15D819FA69D22EF6AF /* Pods-Scavengr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scavengr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scavengr/Pods-Scavengr.debug.xcconfig"; sourceTree = "<group>"; };
 		9A966A65091022ABCEEA7C20 /* Pods_Scavengr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scavengr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 			children = (
 				34D44530205A315B001A5E08 /* AppDelegate.swift */,
 				34D44534205A315B001A5E08 /* Main.storyboard */,
+				34F359AD205AC1D200D7F429 /* ScavengerEngine.swift */,
 				34D44537205A315B001A5E08 /* Assets.xcassets */,
 				34D44539205A315B001A5E08 /* LaunchScreen.storyboard */,
 				34D4453C205A315B001A5E08 /* Info.plist */,
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F359AE205AC1D200D7F429 /* ScavengerEngine.swift in Sources */,
 				34D44531205A315B001A5E08 /* AppDelegate.swift in Sources */,
 				34D44545205A43A8001A5E08 /* ChatViewController.swift in Sources */,
 				34D44543205A3A0D001A5E08 /* MessageCell.swift in Sources */,
