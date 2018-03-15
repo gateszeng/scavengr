@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C418A98F5A0DD9A4EA32511 /* Pods_Scavengr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A966A65091022ABCEEA7C20 /* Pods_Scavengr.framework */; };
 		34D44531205A315B001A5E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D44530205A315B001A5E08 /* AppDelegate.swift */; };
-		34D44533205A315B001A5E08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D44532205A315B001A5E08 /* ViewController.swift */; };
 		34D44536205A315B001A5E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D44534205A315B001A5E08 /* Main.storyboard */; };
 		34D44538205A315B001A5E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D44537205A315B001A5E08 /* Assets.xcassets */; };
 		34D4453B205A315B001A5E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D44539205A315B001A5E08 /* LaunchScreen.storyboard */; };
+		34D44543205A3A0D001A5E08 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D44542205A3A0D001A5E08 /* MessageCell.swift */; };
+		34D44545205A43A8001A5E08 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D44544205A43A8001A5E08 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32DBED3B22958149CED6AEA3 /* Pods-Scavengr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scavengr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scavengr/Pods-Scavengr.release.xcconfig"; sourceTree = "<group>"; };
 		34D4452D205A315B001A5E08 /* Scavengr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scavengr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D44530205A315B001A5E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34D44532205A315B001A5E08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34D44535205A315B001A5E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34D44537205A315B001A5E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34D4453A205A315B001A5E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34D4453C205A315B001A5E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D44542205A3A0D001A5E08 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		34D44544205A43A8001A5E08 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		3BAF0D15D819FA69D22EF6AF /* Pods-Scavengr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scavengr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scavengr/Pods-Scavengr.debug.xcconfig"; sourceTree = "<group>"; };
+		9A966A65091022ABCEEA7C20 /* Pods_Scavengr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scavengr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C418A98F5A0DD9A4EA32511 /* Pods_Scavengr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				34D4452F205A315B001A5E08 /* Scavengr */,
 				34D4452E205A315B001A5E08 /* Products */,
+				87C78B6CD1F3CDE38DDC8618 /* Pods */,
+				927CC4A45A423448F280B9EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				34D44530205A315B001A5E08 /* AppDelegate.swift */,
-				34D44532205A315B001A5E08 /* ViewController.swift */,
 				34D44534205A315B001A5E08 /* Main.storyboard */,
 				34D44537205A315B001A5E08 /* Assets.xcassets */,
 				34D44539205A315B001A5E08 /* LaunchScreen.storyboard */,
 				34D4453C205A315B001A5E08 /* Info.plist */,
+				34D44542205A3A0D001A5E08 /* MessageCell.swift */,
+				34D44544205A43A8001A5E08 /* ChatViewController.swift */,
 			);
 			path = Scavengr;
+			sourceTree = "<group>";
+		};
+		87C78B6CD1F3CDE38DDC8618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF0D15D819FA69D22EF6AF /* Pods-Scavengr.debug.xcconfig */,
+				32DBED3B22958149CED6AEA3 /* Pods-Scavengr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		927CC4A45A423448F280B9EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A966A65091022ABCEEA7C20 /* Pods_Scavengr.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34D4453F205A315B001A5E08 /* Build configuration list for PBXNativeTarget "Scavengr" */;
 			buildPhases = (
+				66343B9E26BF1C1185818EEA /* [CP] Check Pods Manifest.lock */,
 				34D44529205A315B001A5E08 /* Sources */,
 				34D4452A205A315B001A5E08 /* Frameworks */,
 				34D4452B205A315B001A5E08 /* Resources */,
+				6F71259934052445CE01632B /* [CP] Embed Pods Frameworks */,
+				DED5133FFF4BFEA044DAC31B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +161,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66343B9E26BF1C1185818EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F71259934052445CE01632B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scavengr/Pods-Scavengr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DED5133FFF4BFEA044DAC31B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scavengr/Pods-Scavengr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34D44529205A315B001A5E08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D44533205A315B001A5E08 /* ViewController.swift in Sources */,
 				34D44531205A315B001A5E08 /* AppDelegate.swift in Sources */,
+				34D44545205A43A8001A5E08 /* ChatViewController.swift in Sources */,
+				34D44543205A3A0D001A5E08 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +337,7 @@
 		};
 		34D44540205A315B001A5E08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAF0D15D819FA69D22EF6AF /* Pods-Scavengr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Scavengr/Info.plist;
@@ -270,6 +350,7 @@
 		};
 		34D44541205A315B001A5E08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DBED3B22958149CED6AEA3 /* Pods-Scavengr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Scavengr/Info.plist;
@@ -299,6 +380,7 @@
 				34D44541205A315B001A5E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

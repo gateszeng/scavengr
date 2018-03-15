@@ -7,16 +7,26 @@
 //
 
 import UIKit
+import PubNub
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, PNObjectEventListener {
 
     var window: UIWindow?
-
+    var client: PubNub!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let configuration = PNConfiguration(publishKey: "pub-c-88cca681-7766-480c-bb8c-f89716b59002", subscribeKey: "sub-c-94988b10-280c-11e8-9322-6e836ba663ef")
+        self.client = PubNub.clientWithConfiguration(configuration)
+        self.client.addListener(self)
+        
         return true
+    }
+    
+    func client(_ client: PubNub, didReceive status: PNStatus) {
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

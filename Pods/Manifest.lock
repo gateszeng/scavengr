@@ -1,0 +1,14 @@
+PODS:
+  - PubNub (4.5.12):
+    - PubNub/Core (= 4.5.12)
+  - PubNub/Core (4.5.12)
+
+DEPENDENCIES:
+  - PubNub (~> 4)
+
+SPEC CHECKSUMS:
+  PubNub: d092e632ea13373c56cf877f06ec17853fca324a
+
+PODFILE CHECKSUM: 0e665ec1faa0095aaa7dfec0647c8d73f3a5a5a2
+
+COCOAPODS: 1.2.0
